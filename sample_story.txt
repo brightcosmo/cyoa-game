@@ -1,0 +1,52 @@
+----
+S
+start of story!
+your pet dog demands a walk
+====
+1. [diplomacy 4] convince them they've already had one --4 -4 +6 ++6
+2. [acumen 3] try to recall the last walk --4 -4 +5 ++5
+3. take them for a walk --E*1 -E*1 +E*1 ++E*1
+----
+
+----
+E*1
+you take your dog for a walk and they enjoy it.
+====
+----
+
+----
+E*2
+You're running. Oh boy are you running. In fact, come to think of it, this is probably what was the plan all along as your dog is running with you. You both have an enjoyable outdoor experience and return home suitably exhausted.
+====
+----
+
+----
+E~1
+You have made a critical mistake. There's no coming back from this one.
+====
+----
+
+----
+4
+your dog knows better, they're still full of boundless energy and require a walk
+====
+1. Acquiese and take them for a walk -E*1 --E*1 +E*1 ++E*1
+2. [body 3] Make a run for it -E~1 +E*2
+----
+
+----
+5
+You happen to know they went for a walk just three hours ago... but they could always go for one again and they're looking at you with those puppy dog eyes!
+====
+1. take them for a walk anyway because of those puppy dog eyes +E*1
+2. take them for a walk anyway because of those puppy dog eyes +E*1
+3. take them for a walk anyway because of those puppy dog eyes +E*1
+4. [charm 6] attempt to resist -5 +6
+----
+
+----
+6
+Whether due to your quick wits, silver tongue or pure luck you have managed to avoid the *obligation* of taking your dog for a walk. That said, did you really think this was the winning hand?
+====
+1. Oh no what I have done -E~1
+----
